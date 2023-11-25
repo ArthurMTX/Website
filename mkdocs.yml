@@ -1,0 +1,42 @@
+site_name: MTX's blog
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        scheme: dark purple
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        scheme: dark purple
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: assets/logo.png
+  favicon: images/favicon.png
+  features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.instant
+      - navigation.footer
+      - navigation.instant.progress
+      - navigation.tracking
+      - navigation.sections
+      - navigation.path
+      - toc.integrate
+      - search.suggest
+plugins:
+  - search
+  - blog
+  - tags
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+  copyright: Copyright &copy; 2016 - 2020 Martin Donath
