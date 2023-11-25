@@ -37,6 +37,6 @@ plugins:
   - tags
 extra:
   social:
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-  copyright: Copyright &copy; 2016 - 2020 Martin Donath
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/MitralyxL
+  copyright: Copyright &copy; 2022 - 2023 ArthurMTX
